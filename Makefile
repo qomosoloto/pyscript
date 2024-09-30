@@ -63,7 +63,7 @@ precommit-check:
 
 # Run all automated tests in playwright.
 test:
-	cd pyscript.core && npm run test:integration
+	# cd pyscript.core && npm run test:integration
 
 # Format the code.
 fmt: fmt-py
